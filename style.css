@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111111;
+  color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.image-container {
+  position: _______; /* Set the container to hold images in place */
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.normal-image, .ghost-image {
+  width: 300px;
+  height: 400px;
+  transition: _______; /* Add a smooth transition effect */
+  position: _______; /* Position images to overlap */
+  top: 0;
+  left: 0;
+}
+/* Start with ghost image hidden */
+
+/* Hide normal image on hover */
+
+/* Show ghost image on hover */
